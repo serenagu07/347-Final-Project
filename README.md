@@ -136,7 +136,11 @@ We compared several supervised learning models:
 All models were evaluated using Accuracy, ROC-AUC, and F1 Score.
 
 ---
+### Computing Environment
 
+All codes were executed on team members' local computer using Jupyter notebook with own computing environment. As an example, one setup used Python 3.12.9 (packaged by conda-forge) with scikit-learn 1.8.0, pandas 2.3.3, numpy 2.4.2, matplotlib 3.10.8, seaborn 0.13.2, and statsmodels 0.14.6.
+
+---
 ## Results
 
 ### Model Performance Comparison
