@@ -99,8 +99,6 @@ Because of this imbalance, we evaluate models using multiple metrics:
 | ROC-AUC  | Ability to separate classes          |
 | F1 Score | Balance between precision and recall |
 
----
-
 ### Exploratory Analysis
 
 A correlation heatmap showed that:
@@ -110,8 +108,6 @@ A correlation heatmap showed that:
 * Some features have moderate correlations, suggesting possible redundancy
 
 This motivated us to explore PCA.
-
----
 
 ### PCA Exploration
 
@@ -128,7 +124,7 @@ PCA was not helpful because:
 
 * The dataset only has 8 features
 * Features are already meaningful clinically
-* PCA removed useful information instead of just noise
+* PCA removed useful information instead of just nois
 
 ---
 
@@ -275,24 +271,17 @@ Random Forest provides an overall balance between accuracy and F1 score. This in
 
 Logistic Regression, especially with regularization (Ridge and Lasso), remains highly effective while being more interpretable than other models. Its strong performance suggests that simpler, more transparent models can still perform well on this dataset.
 
----
-
 ### Comparison with Existing Approaches
 
 Our results are consistent with previous studies on the Pima Indians Diabetes dataset, where ROC-AUC values typically fall between 0.80 and 0.90. The performance achieved in this project (up to 0.887) is within this expected range, indicating that the models are performing reasonably well.
-
----
 
 ### Consistency of Findings
 
 Across different models, Glucose and BMI consistently appear as the most important features. This agreement across methods increases confidence in the results and aligns with existing medical knowledge about diabetes risk factors.
 
----
-
 ### Limitations
 
 The main limitations include the small dataset size and a limited number of features. These factors may restrict the overall predictive performance.
-
 
 ---
 
