@@ -34,6 +34,15 @@ There are several limitations to this approach. First, the dataset is relatively
 
 ## Set Up and Data Cleaning
 
+### Computing Environment
+
+All codes were executed on team members' local computer using Jupyter notebook with own computing environment. As an example, one setup used Python 3.12.9 (packaged by conda-forge) with scikit-learn 1.8.0, pandas 2.3.3, numpy 2.4.2, matplotlib 3.10.8, seaborn 0.13.2, and statsmodels 0.14.6.
+
+### How to Run
+1. Clone this repository
+2. Install required packages
+3. Open `code/QTM347finalcode.ipynb`
+4. Run all cells from top to bottom
 
 ### Dataset Summary
 
@@ -134,11 +143,6 @@ We compared several supervised learning models:
 | Neural Network      | Nonlinear model        | ReLU activation; best: 1 hidden layer with 5 neurons |
 
 All models were evaluated using Accuracy, ROC-AUC, and F1 Score.
-
----
-### Computing Environment
-
-All codes were executed on team members' local computer using Jupyter notebook with own computing environment. As an example, one setup used Python 3.12.9 (packaged by conda-forge) with scikit-learn 1.8.0, pandas 2.3.3, numpy 2.4.2, matplotlib 3.10.8, seaborn 0.13.2, and statsmodels 0.14.6.
 
 ---
 ## Results
