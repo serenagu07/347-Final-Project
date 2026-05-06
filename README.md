@@ -44,6 +44,8 @@ All codes were executed on team members' local computer using Jupyter notebook w
 3. Open `code/QTM347finalcode.ipynb`
 4. Run all cells from top to bottom
 
+---
+
 ### Dataset Summary
 
 We use the Pima Indians Diabetes Dataset, a binary classification dataset for predicting whether a patient has diabetes.
